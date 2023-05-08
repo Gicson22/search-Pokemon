@@ -1,0 +1,27 @@
+<ul class="list-group">
+  <li *ngFor="let pokemon of selectedPokemons"
+      class="list-group-item">
+    <div class="row">
+      <div class="col-4">
+        <img class="card"
+             [src]="pokemon.avatar">
+      </div>
+      <div class="col-8">
+        <ul class="list-group">
+          <li class="list-group-item">
+            {{pokemon.numero}}
+          </li>
+          <li class="list-group-item"
+              *ngFor="let tipo of pokemon.tipos">
+            {{tipo.type.name}}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </li>
+
+</ul>
+
+
+<!-- GICSON NELSON RIVAS SEMINARIO - 20/04/2023 -->
