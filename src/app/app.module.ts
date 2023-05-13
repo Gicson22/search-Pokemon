@@ -16,4 +16,4 @@ import { PokemonSearchComponent } from './pokemon-search/pokemon-search.componen
 })
 export class AppModule {}
 
-/***********GICSON NELSON RIVAS SEMINARIO - 20/04/2023***********/
+/*********GICSON NELSON RIVAS SEMINARIO ********/
